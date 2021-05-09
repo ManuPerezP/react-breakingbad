@@ -2,13 +2,13 @@ import React from 'react';
 import styled from "@emotion/styled";
 
 const ContenedorFrase = styled.div`
-    padding: 3rem;
+    padding: 5rem;
     border-radius: .5rem;
     background-color:#fff;
     max-width:800px;
 
     @media(min-width: 922px){
-        margin-top: 10rem;
+        margin-top: 12rem;
     }
 
     h1{
@@ -16,7 +16,7 @@ const ContenedorFrase = styled.div`
         text-align: center;
         position:relative;
         padding-left:4rem;
-        
+
         &::before {
             content: open-quote;
             font-size: 10rem;
